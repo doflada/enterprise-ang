@@ -13,6 +13,18 @@ angular.
         when('/register-view', {
           template: '<register-view></register-view>'
         }).
+        when('/office-view', {
+          template: '<office-view></office-view>'
+        }).
+        when('/depart-view', {
+          template: '<depart-view></depart-view>'
+        }).
+        when('/angajat-view', {
+          template: '<angajat-view></angajat-view>'
+        }).
+        when('/salar-view', {
+          template: '<salar-view></salar-view>'
+        }).
         otherwise({redirectTo: '/login-view'});
     }
   ]);

@@ -5,5 +5,9 @@ angular.module('enterpriseAngApp', [
   'ngRoute',
   'core',
   'loginView',
-  'registerView'
+  'registerView',
+  'officeView',
+  'departView',
+  'angajatView',
+  'salarView'
 ]);
