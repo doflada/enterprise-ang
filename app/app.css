@@ -1,25 +1,23 @@
 /* app css stylesheet */
 
-.menu {
-  list-style: none;
-  border-bottom: 0.1em solid black;
-  margin-bottom: 2em;
-  padding: 0 0 0.5em;
+.navbar-header {
+  width: 100%;
 }
 
-.menu:before {
-  content: "[";
+.navbar-header img {
+  height: 25px;
+  width: auto;
 }
 
-.menu:after {
-  content: "]";
+.navbar-header p {
+  font-size: 18px;
+  font-weight: bold;
 }
 
-.menu > li {
-  display: inline;
+#inputUser, #inputPassword {
+  width: 25%;
 }
 
-.menu > li + li:before {
-  content: "|";
-  padding-right: 0.3em;
+.form-group {
+  margin: 15px;
 }
