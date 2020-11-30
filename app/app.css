@@ -23,6 +23,10 @@
   font-weight: bold;
 }
 
+.navbar-btn:hover {
+  text-decoration: underline;
+}
+
 #inputUser, #inputPassword {
   width: 25%;
 }
