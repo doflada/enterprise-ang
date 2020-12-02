@@ -7,12 +7,14 @@ angular.
       data: {
         userName: "",
         firstName: "",
-        lastName: ""
+        lastName: "",
+        email:""
       },
-      update: function(user, first, last) {
+      update: function(user, first, last, email) {
          this.data.userName = user;
          this.data.firstName = first;
          this.data.lastName = last;
+         this.data.email = email;
        }
      };
    });
